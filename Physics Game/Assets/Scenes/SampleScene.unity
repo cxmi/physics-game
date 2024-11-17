@@ -374,7 +374,7 @@ SpringJoint:
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.5, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 2.78, y: 0.75244236, z: 0.83708096}
+  m_ConnectedAnchor: {x: 2.3899999, y: 0.75244236, z: 0.4020815}
   serializedVersion: 2
   m_Spring: 10
   m_Damper: 0.2
@@ -579,13 +579,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.22982472, z: -0, w: 0.97323203}
-  m_LocalPosition: {x: -6.08, y: 1, z: -9.05}
+  m_LocalRotation: {x: 0.31476787, y: -0.050894115, z: 0.016904756, w: 0.9476525}
+  m_LocalPosition: {x: 2.47, y: 6.03, z: -18.18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 26.574, z: 0}
+  m_LocalEulerAnglesHint: {x: 36.748, y: -6.148, z: 0}
 --- !u!1 &1209972683
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,7 +733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e8190f1a5e944216aa31956f85238b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.01
+  speed: 0.02
   keyRight: 100
   keyLeft: 97
   keyUp: 119
@@ -760,6 +760,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1442934300}
+  - component: {fileID: 1442934304}
   - component: {fileID: 1442934303}
   - component: {fileID: 1442934299}
   - component: {fileID: 1442934298}
@@ -922,11 +923,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e8190f1a5e944216aa31956f85238b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.01
+  speed: 0.02
   keyRight: 275
   keyLeft: 276
   keyUp: 273
   keyDown: 274
+--- !u!114 &1442934304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442934296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d413ad3eda24846b2ab817e25bb8f681, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpForce: 8
 --- !u!1 &2055763759
 GameObject:
   m_ObjectHideFlags: 0
@@ -954,7 +968,7 @@ LineRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2055763759}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -966,7 +980,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 591f2e6a816284960837eb67440eb3d8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1202,6 +1216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2116482878}
   - component: {fileID: 2116482877}
+  - component: {fileID: 2116482881}
   - component: {fileID: 2116482876}
   - component: {fileID: 2116482875}
   - component: {fileID: 2116482879}
@@ -1350,6 +1365,19 @@ SpringJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &2116482881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2116482874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d413ad3eda24846b2ab817e25bb8f681, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpForce: 10
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
