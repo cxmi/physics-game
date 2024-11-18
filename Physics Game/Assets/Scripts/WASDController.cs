@@ -29,22 +29,22 @@ public class WASDController : MonoBehaviour
 
         if(Input.GetKey(keyRight)){
             //Move to the right
-            pos.x += speed;
+            pos.x += speed * Time.deltaTime;
         }
 
         if(Input.GetKey(keyLeft)){
             //Move to the right
-            pos.x -= speed;
+            pos.x -= speed * Time.deltaTime;
         }
 
         if(Input.GetKey(keyUp)){
             //Move to the right
-            pos.z += speed;
+            pos.z += speed * Time.deltaTime;
         }
 
         if(Input.GetKey(keyDown)){
             //Move to the right
-            pos.z -= speed;
+            pos.z -= speed * Time.deltaTime;
         }
         //set the transform.position to the new position 
         transform.position = pos;    

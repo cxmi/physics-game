@@ -1236,7 +1236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e8190f1a5e944216aa31956f85238b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.02
+  speed: 4
   keyRight: 100
   keyLeft: 97
   keyUp: 119
@@ -1507,7 +1507,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e8190f1a5e944216aa31956f85238b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.02
+  speed: 4
   keyRight: 275
   keyLeft: 276
   keyUp: 273
