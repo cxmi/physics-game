@@ -52,16 +52,16 @@ public class LineConnector : MonoBehaviour
             switch (i)
             {
                 case 0:
-                    positions[i] = positionAtHead + new Vector3(0,1,0);
+                    positions[i] = positionAtHead ;
                     break;
                 case 1:
-                    positions[i] = positionAtIndex1 + new Vector3(0,1,0);
+                    positions[i] = positionAtIndex1;
                     break;
                 case 2:
-                    positions[i] = positionAtIndex2 + new Vector3(0,1,0);  // Example for index 2
+                    positions[i] = positionAtIndex2;  // Example for index 2
                     break;
                 case 3:
-                    positions[i] = positionAtIndex3+ new Vector3(0,1,0);  // Example for index 3
+                    positions[i] = positionAtIndex3;  // Example for index 3
                     break;
             }
 

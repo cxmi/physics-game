@@ -33,10 +33,19 @@ public class Jump : MonoBehaviour
         rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);  // Apply jump force
     }
 
-    void OnCollisionEnter (Collision collision)
-    {
-        isGrounded = true;
+    // void OnCollisionEnter (Collision collision)
+    // {
+    //     isGrounded = true;
+    // }
+    // void OnCollisionExit (Collision collision)
+    // {
+    //     isGrounded = false;
+    // }
+
+    void OnCollisionStay (Collision collision){
+         isGrounded = true;
     }
+    
     void OnCollisionExit (Collision collision)
     {
         isGrounded = false;
