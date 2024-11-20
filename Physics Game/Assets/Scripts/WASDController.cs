@@ -10,8 +10,10 @@ public class WASDController : MonoBehaviour
     public KeyCode keyLeft = KeyCode.A;
     public KeyCode keyUp = KeyCode.W;
     public KeyCode keyDown = KeyCode.S;
+    public Camera myCamera;
 
-    // Rigidbody rb;
+    public Rigidbody rb;
+    public float force = 1f;
     // public float jumpForce = 10f;
 
     // Start is called before the first frame update
@@ -21,33 +23,41 @@ public class WASDController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-    Debug.Log("Hello again!");
+    //Debug.Log("Hello again!");
         //get the current position
-        Vector3 pos = transform.position;
+        //Vector3 pos = transform.position;
 
         if(Input.GetKey(keyRight)){
             //Move to the right
-            pos.x += speed * Time.deltaTime;
+            //pos.x += speed * Time.deltaTime;
+
+            rb.AddForce(force * myCamera.transform.right * Time.fixedDeltaTime);
         }
 
         if(Input.GetKey(keyLeft)){
             //Move to the right
-            pos.x -= speed * Time.deltaTime;
+            //pos.x -= speed * Time.deltaTime;
+            rb.AddForce(force * -myCamera.transform.right * Time.fixedDeltaTime);
+
         }
 
         if(Input.GetKey(keyUp)){
             //Move to the right
-            pos.z += speed * Time.deltaTime;
+            //pos.z += speed * Time.deltaTime;
+            rb.AddForce(force * myCamera.transform.forward * Time.fixedDeltaTime);
+
         }
 
         if(Input.GetKey(keyDown)){
             //Move to the right
-            pos.z -= speed * Time.deltaTime;
+            //pos.z -= speed * Time.deltaTime;
+            rb.AddForce(force * -myCamera.transform.forward * Time.fixedDeltaTime);
+
         }
         //set the transform.position to the new position 
-        transform.position = pos;    
+        //transform.position = pos;    
 
     }
 
