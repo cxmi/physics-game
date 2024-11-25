@@ -11,6 +11,8 @@ public class LineMeshCollider : MonoBehaviour
     public float colliderWidth = 1f;   // Width of the box colliders
     public float colliderHeight = 1f;  // Height of the box colliders
 
+    public GameObject parentColliderObject;
+
     private BoxCollider[] boxColliders; // Array to store the colliders
     private int prevPointCount = 0;     // Track previous point count
     // Start is called before the first frame update
@@ -96,6 +98,10 @@ public class LineMeshCollider : MonoBehaviour
         // Create a new GameObject for the BoxCollider
         GameObject colliderObject = new GameObject("BoxCollider");
 
+        //make BoxCollider a child of SphereHead
+
+        colliderObject.transform.parent = parentColliderObject.transform;
+
         // Position the collider at the midpoint
         colliderObject.transform.position = midpoint;
 
@@ -104,6 +110,7 @@ public class LineMeshCollider : MonoBehaviour
 
         // Add a BoxCollider component to the GameObject
         BoxCollider boxCollider = colliderObject.AddComponent<BoxCollider>();
+
 
         // Set the size of the BoxCollider
         boxCollider.size = new Vector3(colliderWidth, colliderHeight, distance);
