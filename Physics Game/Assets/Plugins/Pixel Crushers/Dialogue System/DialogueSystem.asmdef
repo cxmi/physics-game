@@ -1,0 +1,18 @@
+{
+    "name": "DialogueSystem",
+    "rootNamespace": "",
+    "references": [
+        "PixelCrushers",
+        "Unity.TextMeshPro",
+        "YarnSpinner.Unity"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
