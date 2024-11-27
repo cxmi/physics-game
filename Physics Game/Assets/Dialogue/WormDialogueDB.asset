@@ -48,7 +48,7 @@ MonoBehaviour:
     - title: Description
       value: 
       type: 0
-      typeString: CustomFieldType_Text
+      typeString: 
     - title: IsPlayer
       value: True
       type: 2
@@ -70,7 +70,7 @@ MonoBehaviour:
     - title: Description
       value: 
       type: 0
-      typeString: CustomFieldType_Text
+      typeString: 
     - title: IsPlayer
       value: False
       type: 2
@@ -92,13 +92,13 @@ MonoBehaviour:
     - title: Description
       value: 
       type: 0
-      typeString: CustomFieldType_Text
+      typeString: 
     - title: IsPlayer
       value: False
       type: 2
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 0}
-    spritePortrait: {fileID: 21300000, guid: 4df60efdc290945e0a72503ffbd14cec, type: 3}
+    spritePortrait: {fileID: 0}
     alternatePortraits: []
     spritePortraits: []
   - id: 4
@@ -136,19 +136,19 @@ MonoBehaviour:
     - title: Description
       value: 
       type: 0
-      typeString: CustomFieldType_Text
+      typeString: 
     - title: IsPlayer
       value: False
       type: 2
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 0}
-    spritePortrait: {fileID: 21300000, guid: d3deda0b18fa2432d98a4529a5ec7d72, type: 3}
+    spritePortrait: {fileID: 0}
     alternatePortraits: []
     spritePortraits: []
   - id: 6
     fields:
     - title: Name
-      value: Narrator
+      value: Luke
       type: 0
       typeString: 
     - title: Pictures
@@ -165,28 +165,6 @@ MonoBehaviour:
       typeString: CustomFieldType_Boolean
     portrait: {fileID: 0}
     spritePortrait: {fileID: 0}
-    alternatePortraits: []
-    spritePortraits: []
-  - id: 7
-    fields:
-    - title: Name
-      value: Luke
-      type: 0
-      typeString: 
-    - title: Pictures
-      value: '[]'
-      type: 3
-      typeString: CustomFieldType_Files
-    - title: Description
-      value: 
-      type: 0
-      typeString: CustomFieldType_Text
-    - title: IsPlayer
-      value: False
-      type: 2
-      typeString: CustomFieldType_Boolean
-    portrait: {fileID: 0}
-    spritePortrait: {fileID: 21300000, guid: 5b9502aff79ff496593b66be06d90daa, type: 3}
     alternatePortraits: []
     spritePortraits: []
   items: []
@@ -2824,7 +2802,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 6
+        value: 5
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -2836,8 +2814,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: You try to scream, but this isn't exactly possible, considering that
-          you are, well, a worm. But you do manage to eke out a little squeak.
+        value: '*You try to scream, but this isn''t exactly possible, considering
+          that you are, well, a worm. But you do manage to eke out a squeak.*'
         type: 0
         typeString: 
       - title: Sequence
@@ -4054,8 +4032,8 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: I'm August. Nice to meet you... sorry I look like this, I've been
-          feeling a little under the weather, and I- I wasn't expecting a guest today.
+        value: I'm August. Nice to meet you... sorry I look like this, I- I wasn't
+          expecting a guest today.
         type: 0
         typeString: 
       - title: Sequence
@@ -4269,7 +4247,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 6
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -4281,7 +4259,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: August blushes furiously.
+        value: '*August blushes furiously.*'
         type: 0
         typeString: 
       - title: Sequence
@@ -5200,7 +5178,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 6
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -5212,7 +5190,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: August smiles at you, seemingly uncomprehending.
+        value: '*August smiles at you, seemingly uncomprehending.*'
         type: 0
         typeString: 
       - title: Sequence
@@ -7370,7 +7348,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 6
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -7382,7 +7360,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: August turns deep red.
+        value: '*August turns deep red.*'
         type: 0
         typeString: 
       - title: Sequence
@@ -9011,7 +8989,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 6
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -9023,7 +9001,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: August looks at you for instruction.
+        value: '*August looks at you for instruction.*'
         type: 0
         typeString: 
       - title: Sequence
@@ -9402,7 +9380,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 7
+        value: 6
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -9457,7 +9435,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 7
+        value: 6
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -9611,7 +9589,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 7
+        value: 6
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -10063,7 +10041,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 7
+        value: 6
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -10284,7 +10262,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 7
+        value: 6
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -10505,7 +10483,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 7
+        value: 6
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -10725,7 +10703,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 7
+        value: 6
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -11184,7 +11162,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: Luke does not seem to hear you.
+        value: '*Luke does not seem to hear you.*'
         type: 0
         typeString: 
       - title: Sequence
@@ -11392,7 +11370,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 7
+        value: 6
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -11447,7 +11425,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 7
+        value: 6
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -11722,7 +11700,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 7
+        value: 6
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -11777,7 +11755,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 7
+        value: 6
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -11997,7 +11975,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 7
+        value: 6
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
@@ -12052,7 +12030,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 7
+        value: 6
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant

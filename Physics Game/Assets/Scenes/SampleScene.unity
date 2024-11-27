@@ -3711,22 +3711,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd97f032c69e48f4a551aec475d5e88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  axes: 1
-  invertY: 0
-  sensitivityX: 10
-  sensitivityY: 9
-  minimumX: -360
-  maximumX: 360
-  minimumY: -85
-  maximumY: 85
-  rotationX: 0
-  rotationY: 0
-  rotArrayX: []
-  rotAverageX: 0
-  rotArrayY: []
-  rotAverageY: 0
-  framesOfSmoothing: 5
-  originalRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &223085707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16258,22 +16242,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd97f032c69e48f4a551aec475d5e88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  axes: 2
-  invertY: 0
-  sensitivityX: 10
-  sensitivityY: 9
-  minimumX: -360
-  maximumX: 360
-  minimumY: -85
-  maximumY: 85
-  rotationX: 0
-  rotationY: 0
-  rotArrayX: []
-  rotAverageX: 0
-  rotArrayY: []
-  rotAverageY: 0
-  framesOfSmoothing: 5
-  originalRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &963194231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24395,6 +24363,7 @@ GameObject:
   - component: {fileID: 1344933281}
   - component: {fileID: 1344933280}
   - component: {fileID: 1344933283}
+  - component: {fileID: 1344933284}
   m_Layer: 0
   m_Name: August
   m_TagString: Untagged
@@ -24500,7 +24469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c593457cd8105e148906690e1707c592, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trigger: 16
+  trigger: 2048
   condition:
     luaConditions: []
     questConditions: []
@@ -24556,7 +24525,7 @@ MonoBehaviour:
   maxConversationDistance: 5
   monitorConversationDistanceFrequency: 1
   showCursorDuringConversation: 0
-  pauseGameDuringConversation: 0
+  pauseGameDuringConversation: 1
   setActiveActions: []
   setEnabledActions: []
   setAnimatorStateActions: []
@@ -24567,6 +24536,31 @@ MonoBehaviour:
   useBarkTitlePicker: 1
   useQuestNamePicker: 1
   selectedDatabase: {fileID: 11400000, guid: 1177befe22fca428ea6fd0e0865b7719, type: 2}
+--- !u!114 &1344933284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344933278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274b80ab5b659c646ba9338870d14625, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_overrideName: 
+  m_overrideUseMessage: 
+  maxUseDistance: 5
+  events:
+    onSelect:
+      m_PersistentCalls:
+        m_Calls: []
+    onDeselect:
+      m_PersistentCalls:
+        m_Calls: []
+    onUse:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1346813804
 GameObject:
   m_ObjectHideFlags: 0
@@ -36531,6 +36525,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1344933279}
   - {fileID: 450327125}
   - {fileID: 1408078932}
   - {fileID: 981762534}
@@ -36538,7 +36533,6 @@ Transform:
   - {fileID: 1774466302}
   - {fileID: 738754527}
   - {fileID: 1204047870}
-  - {fileID: 1344933279}
   - {fileID: 2024092007}
   - {fileID: 1354181743}
   - {fileID: 156611565}
@@ -37492,9 +37486,11 @@ GameObject:
   - component: {fileID: 2116482875}
   - component: {fileID: 2116482879}
   - component: {fileID: 2116482880}
+  - component: {fileID: 2116482883}
+  - component: {fileID: 2116482884}
   m_Layer: 0
   m_Name: Sphere2-CamFollow
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37649,6 +37645,69 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpForce: 10
+--- !u!114 &2116482883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2116482874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42f17d3292d455242a47944a59dea99c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagSpecificElements: []
+  layerSpecificElements: []
+--- !u!114 &2116482884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2116482874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 963d6358c55a0f44d8de57bee560f184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useDefaultGUI: 1
+  guiSkin: {fileID: 0}
+  guiStyleName: label
+  alignment: 1
+  color: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  textStyle: 1
+  textStyleColor: {r: 0, g: 0, b: 0, a: 1}
+  m_defaultUseMessage: 
+  useKey: 0
+  useButton: Fire2
+  enableTouch: 1
+  touchArea:
+    origin: 4
+    alignment: 4
+    x:
+      scale: 0
+      value: 0
+    y:
+      scale: 0
+      value: 0
+    width:
+      scale: 0
+      value: 0
+    height:
+      scale: 0
+      value: 0
+    minPixelWidth: 0
+    minPixelHeight: 0
+  broadcastToChildren: 1
+  actorTransform: {fileID: 0}
+  onSelectedUsable:
+    m_PersistentCalls:
+      m_Calls: []
+  onDeselectedUsable:
+    m_PersistentCalls:
+      m_Calls: []
+  usablesInRange: []
 --- !u!1 &2118917294
 GameObject:
   m_ObjectHideFlags: 0
