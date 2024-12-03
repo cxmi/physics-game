@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using PixelCrushers.DialogueSystem;
+
 
 
 public class AddGravity : MonoBehaviour
@@ -12,6 +14,11 @@ public class AddGravity : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         if (rb != null){
             rb.useGravity = true;
+            //set play music for august quest to successful
+            PixelCrushers.DialogueSystem.QuestLog.SetQuestState("Play music for August", QuestState.Success);
+            
+            //add a delay here
+            PixelCrushers.DialogueSystem.QuestLog.SetQuestState("Talk to August again", QuestState.Active);
         }
 
     }
