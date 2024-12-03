@@ -127,45 +127,7 @@ MonoBehaviour:
   - id: 1
     fields:
     - title: Name
-      value: Look At Mirror
-      type: 0
-      typeString: 
-    - title: Pictures
-      value: '[]'
-      type: 3
-      typeString: CustomFieldType_Files
-    - title: Description
-      value: Find out who you really are
-      type: 0
-      typeString: 
-    - title: Success Description
-      value: 
-      type: 0
-      typeString: 
-    - title: Failure Description
-      value: 
-      type: 0
-      typeString: 
-    - title: State
-      value: active
-      type: 0
-      typeString: 
-    - title: Is Item
-      value: False
-      type: 2
-      typeString: CustomFieldType_Boolean
-    - title: Trackable
-      value: True
-      type: 2
-      typeString: CustomFieldType_Boolean
-    - title: Track
-      value: True
-      type: 2
-      typeString: CustomFieldType_Boolean
-  - id: 2
-    fields:
-    - title: Name
-      value: Meet August
+      value: Look at the mirror
       type: 0
       typeString: 
     - title: Pictures
@@ -200,10 +162,48 @@ MonoBehaviour:
       value: True
       type: 2
       typeString: CustomFieldType_Boolean
+  - id: 2
+    fields:
+    - title: Name
+      value: Find who lives in the apartment
+      type: 0
+      typeString: 
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
+    - title: Success Description
+      value: 
+      type: 0
+      typeString: 
+    - title: Failure Description
+      value: 
+      type: 0
+      typeString: 
+    - title: State
+      value: active
+      type: 0
+      typeString: 
+    - title: Is Item
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Trackable
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Track
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
   - id: 3
     fields:
     - title: Name
-      value: Play August Music
+      value: Play music for August
       type: 0
       typeString: 
     - title: Pictures
@@ -234,6 +234,36 @@ MonoBehaviour:
     fields:
     - title: Name
       value: Meet Luke
+      type: 0
+      typeString: 
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: 
+      type: 0
+      typeString: 
+    - title: Success Description
+      value: 
+      type: 0
+      typeString: 
+    - title: Failure Description
+      value: 
+      type: 0
+      typeString: 
+    - title: State
+      value: unassigned
+      type: 0
+      typeString: 
+    - title: Is Item
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+  - id: 1000
+    fields:
+    - title: Name
+      value: Turn off the lights
       type: 0
       typeString: 
     - title: Pictures
