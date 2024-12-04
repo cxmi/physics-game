@@ -1505,7 +1505,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &379831842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1802,11 +1802,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 417241955}
+  - component: {fileID: 417241959}
   - component: {fileID: 417241958}
   - component: {fileID: 417241957}
   - component: {fileID: 417241956}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Start Game
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1926,6 +1927,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 417241954}
   m_CullTransparentMesh: 1
+--- !u!114 &417241959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417241954}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49c3e35c9d4e04b5098f8b3d63e4bd7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputName: Submit
 --- !u!1 &454963772
 GameObject:
   m_ObjectHideFlags: 0
