@@ -17,9 +17,9 @@ public class AddGravity : MonoBehaviour
             rb.useGravity = true;
             //set play music for august quest to successful
             PixelCrushers.DialogueSystem.QuestLog.SetQuestState("Play music for August", QuestState.Success);
-            
+            PixelCrushers.DialogueSystem.DialogueLua.SetVariable("playedMusic", true);
             //add a delay here
-            PixelCrushers.DialogueSystem.QuestLog.SetQuestState("Talk to August again", QuestState.Active);
+            //PixelCrushers.DialogueSystem.QuestLog.SetQuestState("Talk to August again", QuestState.Active);
         }
 
     }

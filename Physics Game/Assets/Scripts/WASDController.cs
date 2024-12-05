@@ -34,12 +34,15 @@ public class WASDController : MonoBehaviour
             //pos.x += speed * Time.deltaTime;
 
             rb.AddForce(force * myCamera.transform.right * Time.fixedDeltaTime);
+
+            //rb.AddForce(force * transform.right * Time.fixedDeltaTime);
         }
 
         if(Input.GetKey(keyLeft)){
             //Move to the right
             //pos.x -= speed * Time.deltaTime;
             rb.AddForce(force * -myCamera.transform.right * Time.fixedDeltaTime);
+           // rb.AddForce(force * -transform.right * Time.fixedDeltaTime);
 
         }
 
@@ -47,6 +50,7 @@ public class WASDController : MonoBehaviour
             //Move to the right
             //pos.z += speed * Time.deltaTime;
             rb.AddForce(force * myCamera.transform.forward * Time.fixedDeltaTime);
+            //rb.AddForce(force * transform.forward * Time.fixedDeltaTime);
 
         }
 
@@ -54,6 +58,7 @@ public class WASDController : MonoBehaviour
             //Move to the right
             //pos.z -= speed * Time.deltaTime;
             rb.AddForce(force * -myCamera.transform.forward * Time.fixedDeltaTime);
+            //rb.AddForce(force * -transform.forward * Time.fixedDeltaTime);
 
         }
         //set the transform.position to the new position 

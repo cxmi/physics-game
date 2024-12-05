@@ -31,5 +31,7 @@ public class VariableScript : MonoBehaviour
         if (PixelCrushers.DialogueSystem.QuestLog.GetQuestState("Return to August's bed") == QuestState.Active){
             finishedMeetingLuke = true;
         }
+
+        
     }
 }
