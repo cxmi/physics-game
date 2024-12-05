@@ -9,6 +9,8 @@ public class LightsController : MonoBehaviour
 //[SerializeField] private VariableScript variableScript;
 [SerializeField] private GameObject lightsOff;
 [SerializeField] private GameObject lightsOn;
+[SerializeField] private GameObject lightBlocker;
+[SerializeField] private GameObject pointLight;
 
     void OnTriggerEnter(Collider collider)
     {
@@ -19,9 +21,14 @@ public class LightsController : MonoBehaviour
 
             lightsOn.SetActive(false);
             lightsOff.SetActive(true);
+            
             Debug.Log("working lights");
-            //PixelCrushers.DialogueSystem.QuestLog.SetQuestState("Turn off the lights", QuestState.Success);
-            //PixelCrushers.DialogueSystem.DialogueLua.SetVariable("timeToTurnOffLights", false);
+            lightBlocker.SetActive(true); 
+            pointLight.SetActive(false);
+
+            //this isnt working 
+            PixelCrushers.DialogueSystem.QuestLog.SetQuestState("Turn off the lights", QuestState.Success);
+            //PixelCrushers.DialogueSystem.DialogueLua.SetVariable("turnedOffLights", true);
 
 //timeToTurnOffLights
             

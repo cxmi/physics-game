@@ -18,9 +18,26 @@ public class AddGravity : MonoBehaviour
             //set play music for august quest to successful
             PixelCrushers.DialogueSystem.QuestLog.SetQuestState("Play music for August", QuestState.Success);
             PixelCrushers.DialogueSystem.DialogueLua.SetVariable("playedMusic", true);
+
             //add a delay here
             //PixelCrushers.DialogueSystem.QuestLog.SetQuestState("Talk to August again", QuestState.Active);
         }
 
+    }
+
+    void Update()
+    {
+        
+        //debug
+        //    if(Input.GetKey(KeyCode.F)){
+        //     //Move to the right
+        //     //pos.x += speed * Time.deltaTime;
+
+        //     PixelCrushers.DialogueSystem.DialogueLua.SetVariable("playedMusic", true);
+        // }
+
+            if (PixelCrushers.DialogueSystem.DialogueLua.GetVariable("playedMusic").AsBool == true){
+                Debug.Log("playedMusic variable is now true");
+            }
     }
 }

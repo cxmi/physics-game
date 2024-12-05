@@ -28,7 +28,7 @@ public class VariableScript : MonoBehaviour
             canTurnOffLight = true;
         }
 
-        if (PixelCrushers.DialogueSystem.QuestLog.GetQuestState("Return to August's bed") == QuestState.Active){
+        if (PixelCrushers.DialogueSystem.QuestLog.GetQuestState("Meet August and Luke in bed") == QuestState.Active){
             finishedMeetingLuke = true;
         }
 

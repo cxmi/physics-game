@@ -17,8 +17,11 @@ public class AugustHider : MonoBehaviour
     {
         // the script we made created the class VariableScript
         // so we drag that in and now can reference the variables within 
-        if (!variableManager.finishedMeetingLuke){
-            sittingAugust.SetActive(false); 
+        if (variableManager.finishedMeetingLuke){
+            sittingAugust.SetActive(true); 
+        }
+        else {
+            sittingAugust.SetActive(false);
         }
     }
 }
