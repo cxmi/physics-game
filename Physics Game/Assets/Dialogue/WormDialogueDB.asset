@@ -3201,8 +3201,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 288
-        y: 50
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 1
@@ -3256,8 +3256,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 288
-        y: 134
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 2
@@ -3311,8 +3311,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 288
-        y: 218
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 3
@@ -3366,8 +3366,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 288
-        y: 302
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 4
@@ -3421,8 +3421,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 288
-        y: 386
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 5
@@ -3476,8 +3476,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 288
-        y: 470
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 6
@@ -3531,8 +3531,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 288
-        y: 554
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 7
@@ -3586,8 +3586,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 288
-        y: 638
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 8
@@ -3641,8 +3641,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 288
-        y: 722
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 9
@@ -3696,8 +3696,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 288
-        y: 806
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 10
@@ -3757,8 +3757,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 288
-        y: 890
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 11
@@ -3812,8 +3812,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 184
-        y: 1058
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 12
@@ -3867,8 +3867,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 184
-        y: 974
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 13
@@ -3922,8 +3922,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 496
-        y: 974
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 14
@@ -3978,8 +3978,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 184
-        y: 1142
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 15
@@ -4039,8 +4039,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 184
-        y: 1226
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 16
@@ -4094,8 +4094,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 80
-        y: 1730
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 17
@@ -4149,8 +4149,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 80
-        y: 1310
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 18
@@ -4204,8 +4204,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 80
-        y: 1394
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 19
@@ -4259,8 +4259,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 80
-        y: 1478
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 20
@@ -4314,8 +4314,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 80
-        y: 1562
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 21
@@ -4369,8 +4369,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 80
-        y: 1646
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 22
@@ -4424,8 +4424,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 288
-        y: 1310
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 23
@@ -4479,8 +4479,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 288
-        y: 1394
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 24
@@ -4534,8 +4534,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 288
-        y: 1478
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 25
@@ -4589,8 +4589,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 80
-        y: 1814
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 26
@@ -4644,8 +4644,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 80
-        y: 1898
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 27
@@ -4699,8 +4699,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 80
-        y: 1982
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 28
@@ -4755,8 +4755,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 80
-        y: 2066
+        x: 0
+        y: 0
         width: 160
         height: 30
     - id: 29
@@ -4804,8 +4804,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 80
-        y: 2150
+        x: 0
+        y: 0
         width: 160
         height: 30
     entryGroups: []
@@ -26502,9 +26502,64 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: 
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 11
+        originDialogueID: 65
+        destinationConversationID: 11
+        destinationDialogueID: 66
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: Variable['timeForThreesome'] = true
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 30
+    - id: 66
+      fields:
+      - title: Title
+        value: Run Command
+        type: 0
+        typeString: 
+      - title: Description
+        value: 'Run Command - cmd: ''stop'''
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: Continue()
+        type: 0
+        typeString: 
+      conversationID: 11
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: 
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: ds_stop()
       onExecute:
         m_PersistentCalls:
           m_Calls: []
