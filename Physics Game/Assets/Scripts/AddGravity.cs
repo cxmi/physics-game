@@ -9,8 +9,13 @@ public class AddGravity : MonoBehaviour
 {
     [SerializeField] private Rigidbody rb;
     [SerializeField] private VariableScript variableScript;
+    [SerializeField] GameObject musicScriptObject;
+    private bool swappedTrack = false;
+
+
     void OnCollisionEnter(Collision collision)
     {
+        
         //Debug.Log ("player touched this");
         rb = GetComponent<Rigidbody>();
         if (rb != null && variableScript.canHitRecord){
@@ -18,6 +23,12 @@ public class AddGravity : MonoBehaviour
             //set play music for august quest to successful
             PixelCrushers.DialogueSystem.QuestLog.SetQuestState("Play music for August", QuestState.Success);
             PixelCrushers.DialogueSystem.DialogueLua.SetVariable("playedMusic", true);
+            MusicController controller = musicScriptObject.GetComponent<MusicController>();
+
+            if (!swappedTrack){
+                swappedTrack = true;
+                controller.SwapTrack();
+            }
 
             //add a delay here
             //PixelCrushers.DialogueSystem.QuestLog.SetQuestState("Talk to August again", QuestState.Active);
